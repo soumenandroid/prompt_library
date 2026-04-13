@@ -1,0 +1,39 @@
+prompt_id: GENAI-PR-003
+name: SQL Query Reviewer
+version: v1.1
+stlc_phase: Code Review
+category: Database
+tool: ChatGPT
+portfolio: Portfolio C
+tags:
+- SQL
+- Database
+- Performance
+created_date: '2026-02-10'
+last_updated: '2026-03-22'
+description: Reviews SQL queries for correctness, performance issues, and security
+  vulnerabilities.
+input_description: SQL query + optional DB schema
+output_description: Review report with issues and suggested improvements
+template: 'Review the following SQL query for:
+
+  1. Correctness and logic errors
+
+  2. Performance (missing indexes, N+1, expensive joins)
+
+  3. Security (SQL injection risks)
+
+  4. Readability and maintainability
+
+
+  Query:
+
+  {{sql_query}}
+
+
+  Schema context (optional):
+
+  {{schema}}
+
+
+  For each issue found, provide: severity, description, and suggested fix.'
