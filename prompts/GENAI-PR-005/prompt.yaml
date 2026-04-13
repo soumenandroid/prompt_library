@@ -1,0 +1,36 @@
+prompt_id: GENAI-PR-005
+name: Test Data Generator
+version: v1.2
+stlc_phase: Test Execution
+category: Test Data
+tool: GitHub Copilot
+portfolio: Portfolio A
+tags:
+- Test Data
+- Mock
+- Fixtures
+created_date: '2026-02-15'
+last_updated: '2026-03-30'
+description: Generates realistic synthetic test data for given schemas, with realistic
+  distributions and edge-case rows.
+input_description: Data schema or DB table definition
+output_description: JSON or CSV test data rows
+template: 'Generate {{count}} rows of realistic test data for the following schema:
+
+
+  {{schema}}
+
+
+  Constraints:
+
+  - No real PII — use realistic but fictional values
+
+  - Follow realistic value distributions for the domain
+
+  - Include edge-case rows: nulls where nullable, max-length strings, boundary numbers,
+  empty arrays
+
+  - Last 2 rows should be error/boundary cases
+
+
+  Output as a JSON array.'
