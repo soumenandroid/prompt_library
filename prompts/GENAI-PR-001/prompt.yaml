@@ -1,0 +1,35 @@
+prompt_id: GENAI-PR-001
+name: Generate API Test Cases
+version: v1.3
+stlc_phase: Test Design
+category: API Testing
+tool: GitHub Copilot
+portfolio: Portfolio A
+tags:
+- API
+- Automation
+- Regression
+created_date: '2026-02-01'
+last_updated: '2026-03-28'
+description: Generates structured API test cases from a given spec. Covers positive,
+  negative, boundary, and security scenarios.
+input_description: API specification or endpoint description
+output_description: Test cases in Gherkin or tabular format
+template: 'You are a senior QA engineer. Given the following API specification:
+
+
+  {{api_spec}}
+
+
+  Generate comprehensive test cases covering:
+
+  1. Happy path scenarios
+
+  2. Negative / error cases
+
+  3. Boundary values
+
+  4. Auth & security checks
+
+
+  Format: ID | Scenario | Input | Expected Output | Priority'
