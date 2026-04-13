@@ -1,0 +1,32 @@
+prompt_id: GENAI-PR-002
+name: BDD Scenario Writer
+version: v2.1
+stlc_phase: Test Design
+category: BDD
+tool: Claude
+portfolio: Portfolio B
+tags:
+- BDD
+- Gherkin
+- Agile
+created_date: '2026-01-20'
+last_updated: '2026-04-01'
+description: Converts user stories or acceptance criteria into well-formed Gherkin
+  BDD scenarios.
+input_description: User story or acceptance criteria text
+output_description: Given/When/Then scenarios in Gherkin format
+template: 'You are a BDD expert. Convert the following user story into Gherkin scenarios:
+
+
+  {{user_story}}
+
+
+  Rules:
+
+  - Use Given/When/Then format
+
+  - Include Background if shared context exists
+
+  - Generate at least 3 scenarios: happy path, error case, edge case
+
+  - Use concrete examples, not abstract placeholders'
