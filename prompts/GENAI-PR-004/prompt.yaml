@@ -1,0 +1,32 @@
+prompt_id: GENAI-PR-004
+name: Regression Risk Scorer
+version: v1.0
+stlc_phase: Test Review
+category: Risk Analysis
+tool: Claude
+portfolio: Portfolio D
+tags:
+- Regression
+- Risk
+- Prioritisation
+created_date: '2026-03-05'
+last_updated: '2026-03-05'
+description: Analyses code changes and scores regression risk per module. Helps prioritise
+  what to test first.
+input_description: Git diff or list of changed files
+output_description: Risk score per module + recommended test areas
+template: 'You are a QA risk analyst. Given the following code changes:
+
+
+  {{git_diff}}
+
+
+  Analyse and provide:
+
+  1. Risk score per changed module (High/Medium/Low) with justification
+
+  2. Top 5 test areas to prioritise
+
+  3. Recommended test types (unit, integration, E2E) per area
+
+  4. Any regression hotspots to watch'
