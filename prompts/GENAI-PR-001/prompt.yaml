@@ -12,7 +12,7 @@ tags:
 created_date: '2026-02-01'
 last_updated: '2026-03-28'
 description: Generates structured API test cases from a given spec. Covers positive,
-  negative, boundary, and security scenarios.
+  negative, boundary, and security scenarios. Test.
 input_description: API specification or endpoint description
 output_description: Test cases in Gherkin or tabular format
 template: 'You are a senior QA engineer. Given the following API specification:
