@@ -1,0 +1,14 @@
+prompt_id: GENAI-PR-STUB-GENERAT
+name: Stub generation
+version: v1.0
+stlc_phase: Test Design
+category: ''
+tool: GitHub Copilot
+portfolio: Portfolio A
+tags: []
+created_date: '2026-04-14'
+last_updated: '2026-04-14'
+description: ''
+input_description: ''
+output_description: ''
+template: ''
