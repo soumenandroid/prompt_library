@@ -1,11 +1,11 @@
 {
-  "total_uses": 3,
-  "last_used": "2026-04-16T06:43:44.622000+00:00",
+  "total_uses": 4,
+  "last_used": "2026-04-16T07:22:25.334000+00:00",
   "by_portfolio": {
-    "Portfolio A": 2
+    "Portfolio A": 3
   },
   "by_version": {
-    "v1.3": 2
+    "v1.3": 3
   },
   "weekly_counts": [
     0,
@@ -19,7 +19,7 @@
     0,
     0,
     0,
-    2
+    3
   ],
   "events": [
     {
@@ -30,6 +30,12 @@
     },
     {
       "ts": "2026-04-16T06:43:44.622000+00:00",
+      "portfolio": "Portfolio A",
+      "version": "v1.3",
+      "source": "ui"
+    },
+    {
+      "ts": "2026-04-16T07:22:25.334000+00:00",
       "portfolio": "Portfolio A",
       "version": "v1.3",
       "source": "ui"
