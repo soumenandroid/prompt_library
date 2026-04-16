@@ -1,0 +1,15 @@
+prompt_id: GENAI-PR-BDD-TO-SELEN
+name: BDD to Selenium code
+version: v1.0
+stlc_phase: Test Design
+category: Automation
+tool: GitHub Copilot
+portfolio: Portfolio C
+tags:
+- Automation
+created_date: '2026-04-16'
+last_updated: '2026-04-16'
+description: Convert BDD to selenium
+input_description: BDD
+output_description: Selenium code
+template: 'you are an automation developer. '
